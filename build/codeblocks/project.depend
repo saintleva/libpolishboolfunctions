@@ -1,0 +1,155 @@
+# depslib dependency file v1.0
+1264421801 source:/home/anthony/projects/libpolishboolfunctions/src/AbstractOperation.cpp
+	"AbstractOperation.h"
+	"exceptions.h"
+
+1264508152 /home/anthony/projects/libpolishboolfunctions/src/AbstractOperation.h
+	"types.h"
+	"Token.h"
+	"ArgumentList.h"
+	<vector>
+
+1264338744 /home/anthony/projects/libpolishboolfunctions/src/types.h
+
+1264253371 /home/anthony/projects/libpolishboolfunctions/src/Token.h
+	"Cloneable.h"
+
+1264509676 /home/anthony/projects/libpolishboolfunctions/src/Cloneable.h
+
+1264421841 source:/home/anthony/projects/libpolishboolfunctions/src/BinaryOperation.cpp
+	"BinaryOperation.h"
+	<typeinfo>
+
+1264420555 /home/anthony/projects/libpolishboolfunctions/src/BinaryOperation.h
+	"AbstractOperation.h"
+	<bitset>
+
+1264510448 /home/anthony/projects/libpolishboolfunctions/src/exceptions.h
+	"Token.h"
+	"ArgumentList.h"
+	"AbstractOperation.h"
+	"Rpn.h"
+	<string>
+
+1264340153 /home/anthony/projects/libpolishboolfunctions/src/VariableKeeper.h
+	"types.h"
+	"Cloneable.h"
+	<cstddef>
+
+1264509830 /home/anthony/projects/libpolishboolfunctions/src/Rpn.h
+	"types.h"
+	"Token.h"
+	"ArgumentList.h"
+	<list>
+	<boost/smart_ptr/shared_ptr.hpp>
+
+1264250312 source:/home/anthony/projects/libpolishboolfunctions/src/Cloneable.cpp
+	"Cloneable.h"
+
+1264508736 source:/home/anthony/projects/libpolishboolfunctions/src/Constant.cpp
+	"Constant.h"
+
+1264508766 /home/anthony/projects/libpolishboolfunctions/src/Constant.h
+	"Operand.h"
+
+1264509806 /home/anthony/projects/libpolishboolfunctions/src/Operand.h
+	"types.h"
+	"Token.h"
+
+1264421834 source:/home/anthony/projects/libpolishboolfunctions/src/NotOperation.cpp
+	"NotOperation.h"
+
+1264420527 /home/anthony/projects/libpolishboolfunctions/src/NotOperation.h
+	"AbstractOperation.h"
+
+1264250602 source:/home/anthony/projects/libpolishboolfunctions/src/Operand.cpp
+	"Operand.h"
+
+1264510054 source:/home/anthony/projects/libpolishboolfunctions/src/Rpn.cpp
+	"Rpn.h"
+	"Constant.h"
+	"Variable.h"
+	"AbstractOperation.h"
+	"exceptions.h"
+	<stack>
+	<vector>
+
+1264338815 source:/home/anthony/projects/libpolishboolfunctions/src/SimpleKeeper.cpp
+	"SimpleKeeper.h"
+	"exceptions.h"
+
+1264420845 /home/anthony/projects/libpolishboolfunctions/src/SimpleKeeper.h
+	"VariableKeeper.h"
+	<vector>
+
+1264253377 source:/home/anthony/projects/libpolishboolfunctions/src/Token.cpp
+	"Token.h"
+
+1264508869 source:/home/anthony/projects/libpolishboolfunctions/src/Variable.cpp
+	"Variable.h"
+
+1264510396 /home/anthony/projects/libpolishboolfunctions/src/Variable.h
+	"Operand.h"
+	"ArgumentList.h"
+	"exceptions.h"
+
+1264243947 source:/home/anthony/projects/libpolishboolfunctions/src/VariableKeeper.cpp
+	"VariableKeeper.h"
+
+1264507972 source:/home/anthony/projects/libpolishboolfunctions/src/exceptions.cpp
+	"exceptions.h"
+	<boost/format.hpp>
+
+1264510700 source:/home/anthony/projects/libpolishboolfunctions/src/plaintext-output.cpp
+	"plaintext-output.h"
+	"NotOperation.h"
+	"BinaryOperation.h"
+	"exceptions.h"
+
+1264510707 /home/anthony/projects/libpolishboolfunctions/src/plaintext-output.h
+	"Rpn.h"
+	"Token.h"
+	"Constant.h"
+	"Variable.h"
+	"AbstractOperation.h"
+	<string>
+	<ostream>
+	<boost/format.hpp>
+
+1264422269 /home/anthony/projects/libpolishboolfunctions/src/KeeperPtr.h
+	"VariableKeeper.h"
+	<boost/smart_ptr/shared_ptr.hpp>
+
+1264422649 source:/home/anthony/projects/libpolishboolfunctions/src/RpnFormulaOperation.cpp
+	"RpnFormulaOperation.h"
+	"KeeperPtr.h"
+	"SimpleKeeper.h"
+	<typeinfo>
+
+1264422593 /home/anthony/projects/libpolishboolfunctions/src/RpnFormulaOperation.h
+	"AbstractOperation.h"
+	"RpnFunction.h"
+
+1264509383 /home/anthony/projects/libpolishboolfunctions/src/RpnFunction.h
+	"Rpn.h"
+	"ArgumentList.h"
+
+1264507379 /home/anthony/projects/libpolishboolfunctions/src/ArgumentList.h
+	"types.h"
+	<vector>
+
+1264509524 source:/home/anthony/projects/libpolishboolfunctions/src/RpnFunctionOperation.cpp
+	"RpnFunctionOperation.h"
+	"Rpn.h"
+	<typeinfo>
+
+1264509239 /home/anthony/projects/libpolishboolfunctions/src/RpnFunctionOperation.h
+	"AbstractOperation.h"
+	"RpnFunction.h"
+
+1268233997 source:/home/anthony/projects/libpolishboolfunctions/src/enumerate-vectors.cpp
+	"enumerate-vectors.h"
+
+1268233562 /home/anthony/projects/libpolishboolfunctions/src/enumerate-vectors.h
+	"ArgumentList.h"
+

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libpolishboolfunctions" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug-gcc">
+				<Option output="../../bin/codeblocks/Debug-gcc/libpolishboolfunctions" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../obj/codeblocks/Debug-gcc/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release-gcc">
+				<Option output="../../bin/codeblocks/Release-gcc/libpolishboolfunctions" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../obj/codeblocks/Release-gcc/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-DNDEBUG=" />
+				</Compiler>
+				<ExtraCommands>
+					<Add after="cb-auto-post-build-testing unittest1 Debug-gcc" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Debug-icc">
+				<Option output="../../bin/codeblocks/Debug-icc/libpolishboolfunctions" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../obj/codeblocks/Debug-icc/" />
+				<Option type="3" />
+				<Option compiler="icc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add library="imf" />
+				</Linker>
+			</Target>
+			<Target title="Release-icc">
+				<Option output="../../bin/codeblocks/Release-icc/libpolishboolfunctions" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../obj/codeblocks/Release-icc/" />
+				<Option type="3" />
+				<Option compiler="icc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DNDEBUG=" />
+				</Compiler>
+				<Linker>
+					<Add library="imf" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="cb-auto-post-build-testing unittest1 Debug-icc" />
+					<Mode after="always" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../src/AbstractOperation.cpp" />
+		<Unit filename="../../src/AbstractOperation.h" />
+		<Unit filename="../../src/ArgumentList.h" />
+		<Unit filename="../../src/BinaryOperation.cpp" />
+		<Unit filename="../../src/BinaryOperation.h" />
+		<Unit filename="../../src/Cloneable.cpp" />
+		<Unit filename="../../src/Cloneable.h" />
+		<Unit filename="../../src/Constant.cpp" />
+		<Unit filename="../../src/Constant.h" />
+		<Unit filename="../../src/NotOperation.cpp" />
+		<Unit filename="../../src/NotOperation.h" />
+		<Unit filename="../../src/Operand.cpp" />
+		<Unit filename="../../src/Operand.h" />
+		<Unit filename="../../src/Rpn.cpp" />
+		<Unit filename="../../src/Rpn.h" />
+		<Unit filename="../../src/RpnFunction.h" />
+		<Unit filename="../../src/RpnFunctionOperation.cpp" />
+		<Unit filename="../../src/RpnFunctionOperation.h" />
+		<Unit filename="../../src/Token.cpp" />
+		<Unit filename="../../src/Token.h" />
+		<Unit filename="../../src/Variable.cpp" />
+		<Unit filename="../../src/Variable.h" />
+		<Unit filename="../../src/bruteforce.h" />
+		<Unit filename="../../src/enumerate-vectors.cpp" />
+		<Unit filename="../../src/enumerate-vectors.h" />
+		<Unit filename="../../src/exceptions.cpp" />
+		<Unit filename="../../src/exceptions.h" />
+		<Unit filename="../../src/io.h" />
+		<Unit filename="../../src/plaintext-output.cpp" />
+		<Unit filename="../../src/plaintext-output.h" />
+		<Unit filename="../../src/types.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

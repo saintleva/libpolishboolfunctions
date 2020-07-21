@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1256823932 source:/home/anthony/projects/libpolishboolfunctions/samples/simplified-generator/src/generate.cpp
+	"generate.h"
+	<string>
+	<boost/format.hpp>
+	<polishboolfunctions/IndexedVariable.h>
+	<polishboolfunctions/AbstractOperation.h>
+	<polishboolfunctions/BinaryOperation.h>
+	<polishboolfunctions/NotOperation.h>
+	<iostream>
+
+1256824476 /home/anthony/projects/libpolishboolfunctions/samples/simplified-generator/src/generate.h
+	<ostream>
+	<stdexcept>
+	<polishboolfunctions/exceptions.h>
+	<polishboolfunctions/Rpn.h>
+	<polishboolfunctions/Constant.h>
+	<polishboolfunctions/IndexedVariable.h>
+	<polishboolfunctions/NotOperation.h>
+	<polishboolfunctions/BinaryOperation.h>
+
+1256652141 source:/home/anthony/projects/libpolishboolfunctions/samples/simplified-generator/src/main.cpp
+	"generate.h"
+	<iostream>
+	<polishboolfunctions/io.h>
+	<polishboolfunctions/plaintext-output.h>
+

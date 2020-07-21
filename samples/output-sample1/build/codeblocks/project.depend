@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1264342714 source:/home/anthony/projects/libpolishboolfunctions/samples/output-sample1/src/main.cpp
+	<iostream>
+	<polishboolfunctions/Rpn.h>
+	<polishboolfunctions/Constant.h>
+	<polishboolfunctions/SimpleKeeper.h>
+	<polishboolfunctions/Variable.h>
+	<polishboolfunctions/NotOperation.h>
+	<polishboolfunctions/BinaryOperation.h>
+	<polishboolfunctions/io.h>
+	<polishboolfunctions/plaintext-output.h>
+

@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1255596268 source:/home/anthony/projects/libpolishboolfunctions/test/unittest1/src/main.cpp
+	<boost/test/unit_test.hpp>
+
+1255606338 source:/home/anthony/projects/libpolishboolfunctions/test/unittest1/src/operands.cpp
+	<boost/test/unit_test.hpp>
+	<polishboolfunctions/Operand.h>
+	<polishboolfunctions/Constant.h>
+	<polishboolfunctions/Variable.h>
+	<polishboolfunctions/IndexedVariable.h>
+
+1255632424 source:/home/anthony/projects/libpolishboolfunctions/test/unittest1/src/construct.cpp
+	<boost/test/unit_test.hpp>
+	<polishboolfunctions/exceptions.h>
+	<polishboolfunctions/Constant.h>
+	<polishboolfunctions/IndexedVariable.h>
+	<polishboolfunctions/BinaryOperation.h>
+	<polishboolfunctions/NotOperation.h>
+
+1255634957 source:/home/anthony/projects/libpolishboolfunctions/test/unittest1/src/cloning.cpp
+	<memory>
+	<boost/test/unit_test.hpp>
+	<polishboolfunctions/exceptions.h>
+	<polishboolfunctions/IndexedVariable.h>
+	<polishboolfunctions/BinaryOperation.h>
+	<polishboolfunctions/NotOperation.h>
+
+1264511057 source:/home/anthony/projects/libpolishboolfunctions/tests/unittest1/src/cloning.cpp
+	<memory>
+	<boost/test/unit_test.hpp>
+	<polishboolfunctions/exceptions.h>
+	<polishboolfunctions/Variable.h>
+	<polishboolfunctions/BinaryOperation.h>
+	<polishboolfunctions/NotOperation.h>
+
+1264511163 source:/home/anthony/projects/libpolishboolfunctions/tests/unittest1/src/construct.cpp
+	<boost/test/unit_test.hpp>
+	<polishboolfunctions/exceptions.h>
+	<polishboolfunctions/Constant.h>
+	<polishboolfunctions/BinaryOperation.h>
+	<polishboolfunctions/NotOperation.h>
+
+1264341759 source:/home/anthony/projects/libpolishboolfunctions/tests/unittest1/src/main.cpp
+	<boost/test/unit_test.hpp>
+
+1264511648 source:/home/anthony/projects/libpolishboolfunctions/tests/unittest1/src/operands.cpp
+	<memory>
+	<boost/test/unit_test.hpp>
+	<polishboolfunctions/Operand.h>
+	<polishboolfunctions/Constant.h>
+	<polishboolfunctions/Variable.h>
+
+1264512009 source:/home/anthony/projects/libpolishboolfunctions/tests/unittest1/src/rpns.cpp
+	<boost/test/unit_test.hpp>
+	<polishboolfunctions/Constant.h>
+	<polishboolfunctions/ArgumentList.h>
+	<polishboolfunctions/Variable.h>
+	<polishboolfunctions/BinaryOperation.h>
+	<polishboolfunctions/NotOperation.h>
+	<polishboolfunctions/Rpn.h>
+	<polishboolfunctions/exceptions.h>
+

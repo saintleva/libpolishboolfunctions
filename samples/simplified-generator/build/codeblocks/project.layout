@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug-gcc" />
+	<File name="../../src/I386NasmGenerator.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="2394" topLine="51" />
+	</File>
+	<File name="../../src/I386NasmGenerator.h" open="1" top="0" tabpos="1">
+		<Cursor position="0" topLine="18" />
+	</File>
+	<File name="../../src/generate.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="5827" topLine="165" />
+	</File>
+	<File name="../../src/generate.h" open="0" top="0" tabpos="1">
+		<Cursor position="715" topLine="2" />
+	</File>
+	<File name="../../src/main.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="2627" topLine="36" />
+	</File>
+</CodeBlocks_layout_file>

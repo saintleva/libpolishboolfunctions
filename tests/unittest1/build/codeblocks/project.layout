@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug-gcc" />
+	<File name="../../src/cloning.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1520" topLine="17" />
+	</File>
+	<File name="../../src/construct.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="1270" topLine="6" />
+	</File>
+	<File name="../../src/function-operations.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2686" topLine="21" />
+	</File>
+	<File name="../../src/main.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="46" topLine="0" />
+	</File>
+	<File name="../../src/operands.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="1843" topLine="15" />
+	</File>
+	<File name="../../src/rpns.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
